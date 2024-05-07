@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

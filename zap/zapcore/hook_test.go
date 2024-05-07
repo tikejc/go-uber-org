@@ -23,8 +23,8 @@ package zapcore_test
 import (
 	"testing"
 
-	. "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zaptest/observer"
+	. "github.com/tikejc/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 )

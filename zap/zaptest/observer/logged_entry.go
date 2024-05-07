@@ -20,7 +20,7 @@
 
 package observer
 
-import "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+import "github.com/tikejc/go-uber-org/zap/zapcore"
 
 // An LoggedEntry is an encoding-agnostic representation of a log message.
 // Field availability is context dependant.

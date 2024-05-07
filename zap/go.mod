@@ -1,4 +1,4 @@
-module codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap
+module github.com/tikejc/go-uber-org/zap
 
 go 1.13
 

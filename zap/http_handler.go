@@ -26,7 +26,7 @@ import (
 	"io"
 	"net/http"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
 )
 
 // ServeHTTP is a simple JSON endpoint that can report on or change the current

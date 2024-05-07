@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"sync"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/buffer"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/internal/bufferpool"
+	"github.com/tikejc/go-uber-org/zap/buffer"
+	"github.com/tikejc/go-uber-org/zap/internal/bufferpool"
 )
 
 var _sliceEncoderPool = sync.Pool{

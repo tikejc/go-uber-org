@@ -4,7 +4,7 @@ Blazing fast, structured, leveled logging in Go.
 
 ## Installation
 
-`go get -u codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap`
+`go get -u github.com/tikejc/go-uber-org/zap`
 
 Note that zap only supports the two most recent minor versions of Go.
 
@@ -123,8 +123,8 @@ Released under the [MIT License](LICENSE.txt).
 benchmarking against slightly older versions of other packages. Versions are
 pinned in the [benchmarks/go.mod][] file. [↩](#anchor-versions)
 
-[doc-img]: https://pkg.go.dev/badge/codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap
-[doc]: https://pkg.go.dev/codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap
+[doc-img]: https://pkg.go.dev/badge/github.com/tikejc/go-uber-org/zap
+[doc]: https://pkg.go.dev/github.com/tikejc/go-uber-org/zap
 [ci-img]: https://github.com/uber-go/zap/actions/workflows/go.yml/badge.svg
 [ci]: https://github.com/uber-go/zap/actions/workflows/go.yml
 [cov-img]: https://codecov.io/gh/uber-go/zap/branch/master/graph/badge.svg

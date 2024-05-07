@@ -42,7 +42,7 @@ pull request.
 Start by creating a new branch for your changes:
 
 ```
-cd $GOPATH/src/codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap
+cd $GOPATH/src/github.com/tikejc/go-uber-org/zap
 git checkout master
 git fetch upstream
 git rebase upstream/master

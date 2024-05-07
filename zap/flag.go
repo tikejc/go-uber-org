@@ -23,7 +23,7 @@ package zap
 import (
 	"flag"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
 )
 
 // LevelFlag uses the standard library's flag.Var to declare a global flag

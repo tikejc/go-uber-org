@@ -25,10 +25,10 @@ import (
 	"sync"
 	"testing"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/internal/exit"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/internal/ztest"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zaptest/observer"
+	"github.com/tikejc/go-uber-org/zap/internal/exit"
+	"github.com/tikejc/go-uber-org/zap/internal/ztest"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -384,8 +384,8 @@ func TestLoggerAddCallerFunction(t *testing.T) {
 		},
 		{
 			options:         opts(AddCaller()),
-			loggerFunction:  "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.infoLog",
-			sugaredFunction: "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.infoLogSugared",
+			loggerFunction:  "github.com/tikejc/go-uber-org/zap.infoLog",
+			sugaredFunction: "github.com/tikejc/go-uber-org/zap.infoLogSugared",
 		},
 		{
 			options:         opts(AddCaller(), WithCaller(false)),
@@ -394,8 +394,8 @@ func TestLoggerAddCallerFunction(t *testing.T) {
 		},
 		{
 			options:         opts(WithCaller(true)),
-			loggerFunction:  "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.infoLog",
-			sugaredFunction: "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.infoLogSugared",
+			loggerFunction:  "github.com/tikejc/go-uber-org/zap.infoLog",
+			sugaredFunction: "github.com/tikejc/go-uber-org/zap.infoLogSugared",
 		},
 		{
 			options:         opts(WithCaller(true), WithCaller(false)),
@@ -404,13 +404,13 @@ func TestLoggerAddCallerFunction(t *testing.T) {
 		},
 		{
 			options:         opts(AddCaller(), AddCallerSkip(1), AddCallerSkip(-1)),
-			loggerFunction:  "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.infoLog",
-			sugaredFunction: "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.infoLogSugared",
+			loggerFunction:  "github.com/tikejc/go-uber-org/zap.infoLog",
+			sugaredFunction: "github.com/tikejc/go-uber-org/zap.infoLogSugared",
 		},
 		{
 			options:         opts(AddCaller(), AddCallerSkip(2)),
-			loggerFunction:  "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.withLogger",
-			sugaredFunction: "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.withLogger",
+			loggerFunction:  "github.com/tikejc/go-uber-org/zap.withLogger",
+			sugaredFunction: "github.com/tikejc/go-uber-org/zap.withLogger",
 		},
 		{
 			options:         opts(AddCaller(), AddCallerSkip(2), AddCallerSkip(3)),

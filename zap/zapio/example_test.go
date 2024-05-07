@@ -24,8 +24,8 @@ import (
 	"io"
 	"log"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapio"
+	"github.com/tikejc/go-uber-org/zap"
+	"github.com/tikejc/go-uber-org/zap/zapio"
 )
 
 func ExampleWriter() {

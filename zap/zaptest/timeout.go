@@ -23,7 +23,7 @@ package zaptest
 import (
 	"time"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/internal/ztest"
+	"github.com/tikejc/go-uber-org/zap/internal/ztest"
 )
 
 // Timeout scales the provided duration by $TEST_TIMEOUT_SCALE.

@@ -25,7 +25,7 @@ import (
 	"os"
 	"testing"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
@@ -52,7 +52,7 @@ func TestConfig(t *testing.T) {
 			expectRe: "DEBUG\tzap/config_test.go:" + `\d+` + "\tdebug\t" + `{"k": "v", "z": "zz"}` + "\n" +
 				"INFO\tzap/config_test.go:" + `\d+` + "\tinfo\t" + `{"k": "v", "z": "zz"}` + "\n" +
 				"WARN\tzap/config_test.go:" + `\d+` + "\twarn\t" + `{"k": "v", "z": "zz"}` + "\n" +
-				`codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.TestConfig.\w+`,
+				`github.com/tikejc/go-uber-org/zap.TestConfig.\w+`,
 		},
 	}
 

@@ -35,7 +35,7 @@ func TestTakeStacktrace(t *testing.T) {
 	assert.Contains(
 		t,
 		lines[0],
-		"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap.TestTakeStacktrace",
+		"github.com/tikejc/go-uber-org/zap.TestTakeStacktrace",
 		"Expected stacktrace to start with the test.",
 	)
 }

@@ -19,13 +19,13 @@
 // THE SOFTWARE.
 
 // Package zapgrpc provides a logger that is compatible with grpclog.
-package zapgrpc // import "codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapgrpc"
+package zapgrpc // import "github.com/tikejc/go-uber-org/zap/zapgrpc"
 
 import (
 	"fmt"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap"
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
 )
 
 // See https://github.com/grpc/grpc-go/blob/v1.35.0/grpclog/loggerv2.go#L77-L86
@@ -38,7 +38,7 @@ const (
 
 var (
 	// _grpcToZapLevel maps gRPC log levels to zap log levels.
-	// See https://pkg.go.dev/codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap@v1.16.0/zapcore#Level
+	// See https://pkg.go.dev/github.com/tikejc/go-uber-org/zap@v1.16.0/zapcore#Level
 	_grpcToZapLevel = map[int]zapcore.Level{
 		grpcLvlInfo:  zapcore.InfoLevel,
 		grpcLvlWarn:  zapcore.WarnLevel,

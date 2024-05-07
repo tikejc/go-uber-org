@@ -27,7 +27,7 @@ import (
 	"runtime"
 	"strings"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/zapcore"
+	"github.com/tikejc/go-uber-org/zap/zapcore"
 )
 
 // A Logger provides fast, leveled, structured logging. All methods are safe

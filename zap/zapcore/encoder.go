@@ -24,7 +24,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"codeup.aliyun.com/63626148a5e253d2d8d00cfa/dgo/go-uber-org/zap/buffer"
+	"github.com/tikejc/go-uber-org/zap/buffer"
 )
 
 // DefaultLineEnding defines the default line ending when writing logs.
